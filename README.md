@@ -16,7 +16,7 @@ we can use specific name for our file by adding this line `sheet1.name = 'Test s
 for row zero in our file will keep it for headers
 `sheet1.row(0).concat %w{Name Country speacialist}`
 
-here we go now we have done to much just we have to get our list we can get the list from anywhere but in my case i have amazing list for my teammate and some of the best developers in [Clickapps](https://github.com/facebookincubator/create-react-app)
+here we go now we have done to much just we have to get our list we can get the list from anywhere but in my case i have amazing list for my teammate and some of the best developers in [Clickapps](http://www.clickapps.co/en/)
 
 ```row = sheet1.row(1)
 row[0] = 'Majed Bojan'
