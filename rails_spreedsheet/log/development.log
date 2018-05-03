@@ -48,3 +48,847 @@ Migrating to CreateUsers (20180502180439)
   [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
   [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Oran Laurianne Schneider"], ["email", "sandy@franecki.co"], ["nationality_no", "72909"], ["birth_date", "1983-07-08 00:00:00"], ["created_at", "2018-05-03 07:06:12.105521"], ["updated_at", "2018-05-03 07:06:12.105521"]]
+  [1m[35m (32.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Danielle Litzy Gulgowski Jr."], ["email", "sydnee.marks@kiehn.biz"], ["nationality_no", "57898"], ["birth_date", "1989-01-21 00:00:00"], ["created_at", "2018-05-03 07:06:12.143649"], ["updated_at", "2018-05-03 07:06:12.143649"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Deon Patricia Wolf"], ["email", "joe@king.com"], ["nationality_no", "83363"], ["birth_date", "1994-07-19 00:00:00"], ["created_at", "2018-05-03 07:06:12.155904"], ["updated_at", "2018-05-03 07:06:12.155904"]]
+  [1m[35m (4.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Holly Malinda Osinski"], ["email", "ima_maggio@johnsonheidenreich.io"], ["nationality_no", "67332"], ["birth_date", "1962-09-30 00:00:00"], ["created_at", "2018-05-03 07:06:12.166343"], ["updated_at", "2018-05-03 07:06:12.166343"]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Raleigh Morton Predovic II"], ["email", "brandt.mccullough@herzogzulauf.name"], ["nationality_no", "29622"], ["birth_date", "1976-11-20 00:00:00"], ["created_at", "2018-05-03 07:06:12.176360"], ["updated_at", "2018-05-03 07:06:12.176360"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Cristal Bennett Casper"], ["email", "hazle@ledner.co"], ["nationality_no", "48505"], ["birth_date", "1961-09-14 00:00:00"], ["created_at", "2018-05-03 07:06:12.187393"], ["updated_at", "2018-05-03 07:06:12.187393"]]
+  [1m[35m (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Adah Dahlia Considine"], ["email", "luisa.zulauf@simonisjerde.info"], ["nationality_no", "51625"], ["birth_date", "1961-10-11 00:00:00"], ["created_at", "2018-05-03 07:06:12.200847"], ["updated_at", "2018-05-03 07:06:12.200847"]]
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Luis Dortha Fahey"], ["email", "leonor_lebsack@strosinjohns.io"], ["nationality_no", "67657"], ["birth_date", "1996-01-02 00:00:00"], ["created_at", "2018-05-03 07:06:12.209606"], ["updated_at", "2018-05-03 07:06:12.209606"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Marcia Rosetta Kessler"], ["email", "vivien_veum@swaniawski.info"], ["nationality_no", "83775"], ["birth_date", "1975-12-29 00:00:00"], ["created_at", "2018-05-03 07:06:12.220918"], ["updated_at", "2018-05-03 07:06:12.220918"]]
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ms. Jaylan Alia Altenwerth"], ["email", "dejuan@turnerfadel.co"], ["nationality_no", "11725"], ["birth_date", "1997-05-04 00:00:00"], ["created_at", "2018-05-03 07:06:12.235313"], ["updated_at", "2018-05-03 07:06:12.235313"]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Leonora Hester Franecki Jr."], ["email", "heidi@kingmohr.info"], ["nationality_no", "82039"], ["birth_date", "1977-05-26 00:00:00"], ["created_at", "2018-05-03 07:06:12.243017"], ["updated_at", "2018-05-03 07:06:12.243017"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Stacy Conrad Walter II"], ["email", "lexie@kris.io"], ["nationality_no", "35920"], ["birth_date", "1982-02-13 00:00:00"], ["created_at", "2018-05-03 07:06:12.254243"], ["updated_at", "2018-05-03 07:06:12.254243"]]
+  [1m[35m (8.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dianna Douglas Raynor MD"], ["email", "ben.hudson@orn.co"], ["nationality_no", "17264"], ["birth_date", "1956-10-08 00:00:00"], ["created_at", "2018-05-03 07:06:12.268471"], ["updated_at", "2018-05-03 07:06:12.268471"]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ronny Ericka Schoen"], ["email", "mariane.harris@johnsonconsidine.io"], ["nationality_no", "40180"], ["birth_date", "1982-09-30 00:00:00"], ["created_at", "2018-05-03 07:06:12.276334"], ["updated_at", "2018-05-03 07:06:12.276334"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Glenna Devon Gerlach"], ["email", "sheila_shanahan@paucek.net"], ["nationality_no", "60285"], ["birth_date", "1988-01-06 00:00:00"], ["created_at", "2018-05-03 07:06:12.287495"], ["updated_at", "2018-05-03 07:06:12.287495"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Garret Lottie Thiel MD"], ["email", "rodolfo@nitzschepaucek.biz"], ["nationality_no", "91082"], ["birth_date", "1960-02-27 00:00:00"], ["created_at", "2018-05-03 07:06:12.300439"], ["updated_at", "2018-05-03 07:06:12.300439"]]
+  [1m[35m (12.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Julie Alta Feest"], ["email", "robert_bahringer@balistrerihoeger.biz"], ["nationality_no", "71459"], ["birth_date", "1998-09-22 00:00:00"], ["created_at", "2018-05-03 07:06:12.321999"], ["updated_at", "2018-05-03 07:06:12.321999"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ottilie Palma Dare"], ["email", "jeyca.hilpert@brakushegmann.org"], ["nationality_no", "87584"], ["birth_date", "1995-11-23 00:00:00"], ["created_at", "2018-05-03 07:06:12.333027"], ["updated_at", "2018-05-03 07:06:12.333027"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Xander Otha Ernser II"], ["email", "vergie.swaniawski@parisianmueller.io"], ["nationality_no", "21610"], ["birth_date", "1959-06-24 00:00:00"], ["created_at", "2018-05-03 07:06:12.346937"], ["updated_at", "2018-05-03 07:06:12.346937"]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dedric Angelita Abernathy"], ["email", "mercedes.mccullough@kozey.com"], ["nationality_no", "31796"], ["birth_date", "1981-02-25 00:00:00"], ["created_at", "2018-05-03 07:06:12.354975"], ["updated_at", "2018-05-03 07:06:12.354975"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Abe Agustina Mills"], ["email", "pinkie.shields@vandervort.com"], ["nationality_no", "59435"], ["birth_date", "1980-03-26 00:00:00"], ["created_at", "2018-05-03 07:06:12.365949"], ["updated_at", "2018-05-03 07:06:12.365949"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Jannie Gladys Kuvalis"], ["email", "eliza_sanford@ziemann.biz"], ["nationality_no", "17153"], ["birth_date", "1986-04-29 00:00:00"], ["created_at", "2018-05-03 07:06:12.381221"], ["updated_at", "2018-05-03 07:06:12.381221"]]
+  [1m[35m (12.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Westley Kali Casper"], ["email", "krystina.gutkowski@pouroswaters.name"], ["nationality_no", "25129"], ["birth_date", "1981-04-14 00:00:00"], ["created_at", "2018-05-03 07:06:12.399372"], ["updated_at", "2018-05-03 07:06:12.399372"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Osvaldo Tierra McDermott"], ["email", "elta@emmerich.biz"], ["nationality_no", "75429"], ["birth_date", "1984-06-30 00:00:00"], ["created_at", "2018-05-03 07:06:12.411983"], ["updated_at", "2018-05-03 07:06:12.411983"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "King Dorris Wilkinson DVM"], ["email", "rodger.heller@wiza.com"], ["nationality_no", "34724"], ["birth_date", "1979-02-05 00:00:00"], ["created_at", "2018-05-03 07:06:12.421295"], ["updated_at", "2018-05-03 07:06:12.421295"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Fredy Lia Robel"], ["email", "cordell.heathcote@jonesbeer.org"], ["nationality_no", "40995"], ["birth_date", "1998-10-22 00:00:00"], ["created_at", "2018-05-03 07:06:12.432303"], ["updated_at", "2018-05-03 07:06:12.432303"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Rory Rose Huels"], ["email", "jamaal.trantow@vandervort.net"], ["nationality_no", "82771"], ["birth_date", "1966-06-30 00:00:00"], ["created_at", "2018-05-03 07:06:12.443345"], ["updated_at", "2018-05-03 07:06:12.443345"]]
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Roscoe Hadley Turcotte Jr."], ["email", "adah.jast@wolf.info"], ["nationality_no", "28621"], ["birth_date", "1966-06-10 00:00:00"], ["created_at", "2018-05-03 07:06:12.454381"], ["updated_at", "2018-05-03 07:06:12.454381"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Marlon Macey Walker"], ["email", "gayle@harriscollier.net"], ["nationality_no", "88086"], ["birth_date", "1987-09-07 00:00:00"], ["created_at", "2018-05-03 07:06:12.465400"], ["updated_at", "2018-05-03 07:06:12.465400"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mariano Ulices Kub"], ["email", "eugenia.ullrich@weinat.com"], ["nationality_no", "84099"], ["birth_date", "1991-09-20 00:00:00"], ["created_at", "2018-05-03 07:06:12.476465"], ["updated_at", "2018-05-03 07:06:12.476465"]]
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tate Colt Dach"], ["email", "kaycee@langworth.name"], ["nationality_no", "27218"], ["birth_date", "1994-06-30 00:00:00"], ["created_at", "2018-05-03 07:06:12.490802"], ["updated_at", "2018-05-03 07:06:12.490802"]]
+  [1m[35m (3.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Leatha Beaulah Bechtelar"], ["email", "brad_kuphal@wunsch.net"], ["nationality_no", "30561"], ["birth_date", "1968-11-16 00:00:00"], ["created_at", "2018-05-03 07:06:12.500234"], ["updated_at", "2018-05-03 07:06:12.500234"]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Gunnar Brigitte Jerde"], ["email", "tre@feestleuschke.org"], ["nationality_no", "93464"], ["birth_date", "1961-02-01 00:00:00"], ["created_at", "2018-05-03 07:06:12.511305"], ["updated_at", "2018-05-03 07:06:12.511305"]]
+  [1m[35m (5.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Brooks Sid Crona"], ["email", "rhiannon@becker.org"], ["nationality_no", "59702"], ["birth_date", "1996-02-18 00:00:00"], ["created_at", "2018-05-03 07:06:12.524063"], ["updated_at", "2018-05-03 07:06:12.524063"]]
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (10.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Marian Trinity Ortiz I"], ["email", "harmony.carter@huel.net"], ["nationality_no", "42532"], ["birth_date", "1976-01-26 00:00:00"], ["created_at", "2018-05-03 07:06:12.545523"], ["updated_at", "2018-05-03 07:06:12.545523"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Grover Abdullah Renner"], ["email", "crawford.cole@spencerlockman.io"], ["nationality_no", "21793"], ["birth_date", "1967-09-27 00:00:00"], ["created_at", "2018-05-03 07:06:12.566540"], ["updated_at", "2018-05-03 07:06:12.566540"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Cecile Jamison Krajcik"], ["email", "brendan_mante@hermiston.net"], ["nationality_no", "60649"], ["birth_date", "1961-04-11 00:00:00"], ["created_at", "2018-05-03 07:06:12.576591"], ["updated_at", "2018-05-03 07:06:12.576591"]]
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Marlin Milo Hegmann Jr."], ["email", "jee_heathcote@carrollhills.org"], ["nationality_no", "65573"], ["birth_date", "1957-04-27 00:00:00"], ["created_at", "2018-05-03 07:06:12.592022"], ["updated_at", "2018-05-03 07:06:12.592022"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lavina Moshe Kessler"], ["email", "gerda@crookskohler.net"], ["nationality_no", "63215"], ["birth_date", "1988-03-10 00:00:00"], ["created_at", "2018-05-03 07:06:12.602025"], ["updated_at", "2018-05-03 07:06:12.602025"]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mariano Nathen Cummerata"], ["email", "constantin.metz@wisozk.info"], ["nationality_no", "47817"], ["birth_date", "1962-05-03 00:00:00"], ["created_at", "2018-05-03 07:06:12.609844"], ["updated_at", "2018-05-03 07:06:12.609844"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Jovany Kassandra Shanahan"], ["email", "blanca.bogan@bailey.info"], ["nationality_no", "98861"], ["birth_date", "1974-05-11 00:00:00"], ["created_at", "2018-05-03 07:06:12.623346"], ["updated_at", "2018-05-03 07:06:12.623346"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Marvin Alejandra Kuhic"], ["email", "olga@schmidtwintheiser.info"], ["nationality_no", "11692"], ["birth_date", "1964-06-08 00:00:00"], ["created_at", "2018-05-03 07:06:12.631841"], ["updated_at", "2018-05-03 07:06:12.631841"]]
+  [1m[35m (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Delfina Amelia Bauch"], ["email", "cindy@stanton.info"], ["nationality_no", "59042"], ["birth_date", "1986-02-18 00:00:00"], ["created_at", "2018-05-03 07:06:12.643095"], ["updated_at", "2018-05-03 07:06:12.643095"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kaleb Gay Feeney Sr."], ["email", "kailee@kunze.com"], ["nationality_no", "74047"], ["birth_date", "1982-03-30 00:00:00"], ["created_at", "2018-05-03 07:06:12.656083"], ["updated_at", "2018-05-03 07:06:12.656083"]]
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Arne Kelli Abernathy"], ["email", "aubrey@donnelly.co"], ["nationality_no", "98253"], ["birth_date", "1995-10-10 00:00:00"], ["created_at", "2018-05-03 07:06:12.665377"], ["updated_at", "2018-05-03 07:06:12.665377"]]
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Marty Bennie D'Amore"], ["email", "suzanne_brakus@klocko.info"], ["nationality_no", "63546"], ["birth_date", "1980-11-11 00:00:00"], ["created_at", "2018-05-03 07:06:12.676991"], ["updated_at", "2018-05-03 07:06:12.676991"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Payton Alva Wiegand"], ["email", "gwendolyn_schuppe@moen.org"], ["nationality_no", "83544"], ["birth_date", "1960-02-03 00:00:00"], ["created_at", "2018-05-03 07:06:12.687645"], ["updated_at", "2018-05-03 07:06:12.687645"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Jodie Sammie Volkman MD"], ["email", "una@runte.co"], ["nationality_no", "53656"], ["birth_date", "1991-02-05 00:00:00"], ["created_at", "2018-05-03 07:06:12.701861"], ["updated_at", "2018-05-03 07:06:12.701861"]]
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mossie Amara Watsica III"], ["email", "mack.bailey@cronin.com"], ["nationality_no", "98341"], ["birth_date", "1995-05-14 00:00:00"], ["created_at", "2018-05-03 07:06:12.710427"], ["updated_at", "2018-05-03 07:06:12.710427"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Shawna Samson Stracke"], ["email", "thora@jacobi.biz"], ["nationality_no", "70169"], ["birth_date", "1991-07-22 00:00:00"], ["created_at", "2018-05-03 07:06:12.721627"], ["updated_at", "2018-05-03 07:06:12.721627"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Esperanza Faustino Hessel Sr."], ["email", "enrique.schmidt@hansen.io"], ["nationality_no", "66193"], ["birth_date", "1971-12-12 00:00:00"], ["created_at", "2018-05-03 07:06:12.734922"], ["updated_at", "2018-05-03 07:06:12.734922"]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Enid Maggie Pouros"], ["email", "troy_mante@lakin.com"], ["nationality_no", "58560"], ["birth_date", "1993-09-28 00:00:00"], ["created_at", "2018-05-03 07:06:12.743610"], ["updated_at", "2018-05-03 07:06:12.743610"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kody Luella Zulauf"], ["email", "dedrick@hagenes.org"], ["nationality_no", "98399"], ["birth_date", "1960-04-13 00:00:00"], ["created_at", "2018-05-03 07:06:12.754737"], ["updated_at", "2018-05-03 07:06:12.754737"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lily Madie Durgan"], ["email", "carlo@lind.org"], ["nationality_no", "16619"], ["birth_date", "1997-05-21 00:00:00"], ["created_at", "2018-05-03 07:06:12.769958"], ["updated_at", "2018-05-03 07:06:12.769958"]]
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Nya Kaylah Jerde"], ["email", "garett.dickens@daughertyrenner.biz"], ["nationality_no", "45494"], ["birth_date", "1995-02-11 00:00:00"], ["created_at", "2018-05-03 07:06:12.788342"], ["updated_at", "2018-05-03 07:06:12.788342"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Petra Murphy Huel"], ["email", "ora@crist.co"], ["nationality_no", "30669"], ["birth_date", "1957-10-13 00:00:00"], ["created_at", "2018-05-03 07:06:12.802934"], ["updated_at", "2018-05-03 07:06:12.802934"]]
+  [1m[35m (11.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Shane Duane Rath"], ["email", "corine@reinger.io"], ["nationality_no", "90179"], ["birth_date", "1983-01-31 00:00:00"], ["created_at", "2018-05-03 07:06:12.821006"], ["updated_at", "2018-05-03 07:06:12.821006"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Barton Brycen Parker I"], ["email", "guy_johnston@greenholt.info"], ["nationality_no", "37059"], ["birth_date", "1958-08-21 00:00:00"], ["created_at", "2018-05-03 07:06:12.832327"], ["updated_at", "2018-05-03 07:06:12.832327"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Jazmin Earlene Gaylord"], ["email", "joanne.kunze@fishertowne.co"], ["nationality_no", "18459"], ["birth_date", "1998-01-24 00:00:00"], ["created_at", "2018-05-03 07:06:12.844116"], ["updated_at", "2018-05-03 07:06:12.844116"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Amanda Lonnie Beatty"], ["email", "hilbert.pagac@treutel.name"], ["nationality_no", "59028"], ["birth_date", "1997-12-21 00:00:00"], ["created_at", "2018-05-03 07:06:12.854601"], ["updated_at", "2018-05-03 07:06:12.854601"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Miss Mateo Arnoldo Lind"], ["email", "kennedy@herzog.net"], ["nationality_no", "78773"], ["birth_date", "1980-11-12 00:00:00"], ["created_at", "2018-05-03 07:06:12.865605"], ["updated_at", "2018-05-03 07:06:12.865605"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dangelo Virgil Turner"], ["email", "gayle@jastblock.net"], ["nationality_no", "80502"], ["birth_date", "1993-08-09 00:00:00"], ["created_at", "2018-05-03 07:06:12.878307"], ["updated_at", "2018-05-03 07:06:12.878307"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Hardy Sanford Von"], ["email", "raleigh@walterdietrich.info"], ["nationality_no", "96910"], ["birth_date", "1996-06-23 00:00:00"], ["created_at", "2018-05-03 07:06:12.887716"], ["updated_at", "2018-05-03 07:06:12.887716"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dillon Brigitte Stark"], ["email", "dane@stoketiedemann.net"], ["nationality_no", "90265"], ["birth_date", "1964-10-25 00:00:00"], ["created_at", "2018-05-03 07:06:12.898944"], ["updated_at", "2018-05-03 07:06:12.898944"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Otis Jaqueline Simonis"], ["email", "ephraim_mraz@ondrickaweber.biz"], ["nationality_no", "94889"], ["birth_date", "1960-01-17 00:00:00"], ["created_at", "2018-05-03 07:06:12.913899"], ["updated_at", "2018-05-03 07:06:12.913899"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Neil Oleta Will V"], ["email", "kailyn@gutmannernser.io"], ["nationality_no", "72129"], ["birth_date", "1990-11-18 00:00:00"], ["created_at", "2018-05-03 07:06:12.922759"], ["updated_at", "2018-05-03 07:06:12.922759"]]
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Patrick Milan Treutel"], ["email", "tanner_bernhard@barrows.biz"], ["nationality_no", "63639"], ["birth_date", "1998-01-04 00:00:00"], ["created_at", "2018-05-03 07:06:12.933488"], ["updated_at", "2018-05-03 07:06:12.933488"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Maggie Roel Hickle"], ["email", "nyasia.hills@muellerstark.name"], ["nationality_no", "54047"], ["birth_date", "1975-03-19 00:00:00"], ["created_at", "2018-05-03 07:06:12.946781"], ["updated_at", "2018-05-03 07:06:12.946781"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Bernadette Mariane Herzog"], ["email", "derek_keebler@goyette.info"], ["nationality_no", "12186"], ["birth_date", "1990-04-25 00:00:00"], ["created_at", "2018-05-03 07:06:12.954745"], ["updated_at", "2018-05-03 07:06:12.954745"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Christ Khalil Connelly"], ["email", "domingo@yostlynch.co"], ["nationality_no", "56772"], ["birth_date", "1995-12-23 00:00:00"], ["created_at", "2018-05-03 07:06:12.966136"], ["updated_at", "2018-05-03 07:06:12.966136"]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Jarrell Kaylin Jerde"], ["email", "marlin_schoen@little.org"], ["nationality_no", "44589"], ["birth_date", "1975-04-06 00:00:00"], ["created_at", "2018-05-03 07:06:12.978598"], ["updated_at", "2018-05-03 07:06:12.978598"]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Miss Emil Maximo Roberts"], ["email", "jermaine@connpowlowski.name"], ["nationality_no", "19387"], ["birth_date", "1965-12-06 00:00:00"], ["created_at", "2018-05-03 07:06:12.987923"], ["updated_at", "2018-05-03 07:06:12.987923"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kayden Loma Hahn"], ["email", "jayce@fritsch.biz"], ["nationality_no", "85464"], ["birth_date", "1988-02-26 00:00:00"], ["created_at", "2018-05-03 07:06:12.999321"], ["updated_at", "2018-05-03 07:06:12.999321"]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Julia Janet Wilderman"], ["email", "jason@huels.io"], ["nationality_no", "91498"], ["birth_date", "1962-06-14 00:00:00"], ["created_at", "2018-05-03 07:06:13.011276"], ["updated_at", "2018-05-03 07:06:13.011276"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Durward Ernest Feeney"], ["email", "tillman@cronahackett.co"], ["nationality_no", "61683"], ["birth_date", "1975-08-21 00:00:00"], ["created_at", "2018-05-03 07:06:13.024732"], ["updated_at", "2018-05-03 07:06:13.024732"]]
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kaden Archibald Hermiston"], ["email", "melia_kirlin@romaguera.io"], ["nationality_no", "66310"], ["birth_date", "1993-07-15 00:00:00"], ["created_at", "2018-05-03 07:06:13.045286"], ["updated_at", "2018-05-03 07:06:13.045286"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Izabella Kailee Sanford"], ["email", "euna.homenick@hettinger.net"], ["nationality_no", "86701"], ["birth_date", "1976-11-05 00:00:00"], ["created_at", "2018-05-03 07:06:13.058277"], ["updated_at", "2018-05-03 07:06:13.058277"]]
+  [1m[35m (3.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Aiden Barbara Pouros"], ["email", "rory@wiegand.info"], ["nationality_no", "57109"], ["birth_date", "1972-11-08 00:00:00"], ["created_at", "2018-05-03 07:06:13.065355"], ["updated_at", "2018-05-03 07:06:13.065355"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Constantin Zoey Quigley"], ["email", "corene.koelpin@torplubowitz.co"], ["nationality_no", "19927"], ["birth_date", "1969-07-14 00:00:00"], ["created_at", "2018-05-03 07:06:13.076497"], ["updated_at", "2018-05-03 07:06:13.076497"]]
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ellen Federico Bogan"], ["email", "geovany_hodkiewicz@haag.info"], ["nationality_no", "24226"], ["birth_date", "1985-07-05 00:00:00"], ["created_at", "2018-05-03 07:06:13.090907"], ["updated_at", "2018-05-03 07:06:13.090907"]]
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Clarabelle Cora Heidenreich Jr."], ["email", "chesley.becker@schuppe.io"], ["nationality_no", "89748"], ["birth_date", "1998-12-14 00:00:00"], ["created_at", "2018-05-03 07:06:13.098943"], ["updated_at", "2018-05-03 07:06:13.098943"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Hayden Edward Greenfelder"], ["email", "hector@vandervort.co"], ["nationality_no", "62627"], ["birth_date", "1964-11-04 00:00:00"], ["created_at", "2018-05-03 07:06:13.110050"], ["updated_at", "2018-05-03 07:06:13.110050"]]
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Karson Jed Schiller"], ["email", "landen@mante.com"], ["nationality_no", "66126"], ["birth_date", "1998-06-17 00:00:00"], ["created_at", "2018-05-03 07:06:13.124880"], ["updated_at", "2018-05-03 07:06:13.124880"]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Raphael Sophia Goldner"], ["email", "catalina@kuhic.co"], ["nationality_no", "84270"], ["birth_date", "1957-04-19 00:00:00"], ["created_at", "2018-05-03 07:06:13.132209"], ["updated_at", "2018-05-03 07:06:13.132209"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Wilfred Alia Gibson IV"], ["email", "aylin@schroeder.co"], ["nationality_no", "86511"], ["birth_date", "1996-04-07 00:00:00"], ["created_at", "2018-05-03 07:06:13.143320"], ["updated_at", "2018-05-03 07:06:13.143320"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Abe Constantin Mitchell"], ["email", "flavie.orn@torphy.net"], ["nationality_no", "18397"], ["birth_date", "1968-07-23 00:00:00"], ["created_at", "2018-05-03 07:06:13.157421"], ["updated_at", "2018-05-03 07:06:13.157421"]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Carter Rodrigo Rice"], ["email", "natalie@graham.name"], ["nationality_no", "48020"], ["birth_date", "1975-01-08 00:00:00"], ["created_at", "2018-05-03 07:06:13.166217"], ["updated_at", "2018-05-03 07:06:13.166217"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Miss Eveline Karine Klocko"], ["email", "alvera@hettinger.io"], ["nationality_no", "99565"], ["birth_date", "1971-12-30 00:00:00"], ["created_at", "2018-05-03 07:06:13.176698"], ["updated_at", "2018-05-03 07:06:13.176698"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Wilson Warren Jerde"], ["email", "mya@gibson.org"], ["nationality_no", "69515"], ["birth_date", "1992-05-03 00:00:00"], ["created_at", "2018-05-03 07:06:13.189086"], ["updated_at", "2018-05-03 07:06:13.189086"]]
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Jerrold Dashawn Kilback"], ["email", "laisha.bradtke@ohara.name"], ["nationality_no", "17563"], ["birth_date", "1992-05-06 00:00:00"], ["created_at", "2018-05-03 07:06:13.199034"], ["updated_at", "2018-05-03 07:06:13.199034"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Russel Hudson Skiles"], ["email", "stephany.corwin@will.io"], ["nationality_no", "54575"], ["birth_date", "1999-07-19 00:00:00"], ["created_at", "2018-05-03 07:06:13.210167"], ["updated_at", "2018-05-03 07:06:13.210167"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dale Joana Skiles"], ["email", "eino.dach@reilly.info"], ["nationality_no", "79651"], ["birth_date", "1986-03-25 00:00:00"], ["created_at", "2018-05-03 07:06:13.220900"], ["updated_at", "2018-05-03 07:06:13.220900"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Randi Easton Hammes DDS"], ["email", "alvera.shields@bernhard.net"], ["nationality_no", "46638"], ["birth_date", "1997-01-08 00:00:00"], ["created_at", "2018-05-03 07:06:13.232169"], ["updated_at", "2018-05-03 07:06:13.232169"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Eva Mark Wisozk"], ["email", "dewitt@bednar.co"], ["nationality_no", "90807"], ["birth_date", "1969-04-04 00:00:00"], ["created_at", "2018-05-03 07:06:13.243183"], ["updated_at", "2018-05-03 07:06:13.243183"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Letha Jayde Haley"], ["email", "bartholome_bayer@abernathypfeffer.org"], ["nationality_no", "92716"], ["birth_date", "1967-01-11 00:00:00"], ["created_at", "2018-05-03 07:06:13.255487"], ["updated_at", "2018-05-03 07:06:13.255487"]]
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Charity Tony Cole"], ["email", "athena@goodwin.org"], ["nationality_no", "76574"], ["birth_date", "1977-12-14 00:00:00"], ["created_at", "2018-05-03 07:06:13.267259"], ["updated_at", "2018-05-03 07:06:13.267259"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Baylee Mathias Schinner"], ["email", "sylvia.cronin@murray.org"], ["nationality_no", "76473"], ["birth_date", "1996-12-25 00:00:00"], ["created_at", "2018-05-03 07:06:13.277299"], ["updated_at", "2018-05-03 07:06:13.277299"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Amos Otha Blick"], ["email", "ophelia@koepp.co"], ["nationality_no", "54507"], ["birth_date", "1988-02-24 00:00:00"], ["created_at", "2018-05-03 07:06:13.288475"], ["updated_at", "2018-05-03 07:06:13.288475"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Mohamed Vena Bashirian"], ["email", "jennie@macgyverlehner.info"], ["nationality_no", "91862"], ["birth_date", "1989-10-23 00:00:00"], ["created_at", "2018-05-03 07:06:13.301742"], ["updated_at", "2018-05-03 07:06:13.301742"]]
+  [1m[35m (4.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Eulah Corbin Walter"], ["email", "abraham@jenkins.io"], ["nationality_no", "56864"], ["birth_date", "1992-03-08 00:00:00"], ["created_at", "2018-05-03 07:06:13.310023"], ["updated_at", "2018-05-03 07:06:13.310023"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tevin Dalton Rolfson"], ["email", "orion.boehm@kub.biz"], ["nationality_no", "32010"], ["birth_date", "1995-11-03 00:00:00"], ["created_at", "2018-05-03 07:06:15.563823"], ["updated_at", "2018-05-03 07:06:15.563823"]]
+  [1m[35m (71.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Cynthia Cindy Huel"], ["email", "norbert.hartmann@leannonlakin.info"], ["nationality_no", "60254"], ["birth_date", "1963-06-30 00:00:00"], ["created_at", "2018-05-03 07:06:15.645797"], ["updated_at", "2018-05-03 07:06:15.645797"]]
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Art Ewell McDermott"], ["email", "emory_conn@moorebuckridge.biz"], ["nationality_no", "87749"], ["birth_date", "1998-08-15 00:00:00"], ["created_at", "2018-05-03 07:06:15.656619"], ["updated_at", "2018-05-03 07:06:15.656619"]]
+  [1m[35m (13.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lucile Tristin Weber"], ["email", "melany_macgyver@howellvolkman.io"], ["nationality_no", "93425"], ["birth_date", "1988-09-24 00:00:00"], ["created_at", "2018-05-03 07:06:15.679675"], ["updated_at", "2018-05-03 07:06:15.679675"]]
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Agustin Bonnie Bechtelar"], ["email", "winifred@yost.io"], ["nationality_no", "58967"], ["birth_date", "1981-02-04 00:00:00"], ["created_at", "2018-05-03 07:06:15.700021"], ["updated_at", "2018-05-03 07:06:15.700021"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ima Shaina Kemmer"], ["email", "ottilie_walsh@boyle.info"], ["nationality_no", "61318"], ["birth_date", "1982-06-01 00:00:00"], ["created_at", "2018-05-03 07:06:15.712745"], ["updated_at", "2018-05-03 07:06:15.712745"]]
+  [1m[35m (10.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Felton Paris Raynor"], ["email", "angeline@white.io"], ["nationality_no", "84232"], ["birth_date", "1962-03-09 00:00:00"], ["created_at", "2018-05-03 07:06:15.734008"], ["updated_at", "2018-05-03 07:06:15.734008"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Frieda Willie Vandervort"], ["email", "hattie@roobeichmann.name"], ["nationality_no", "94019"], ["birth_date", "1995-08-09 00:00:00"], ["created_at", "2018-05-03 07:06:15.743942"], ["updated_at", "2018-05-03 07:06:15.743942"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Heber Gaylord Schuster"], ["email", "ru.crist@powlowski.info"], ["nationality_no", "23803"], ["birth_date", "1995-08-11 00:00:00"], ["created_at", "2018-05-03 07:06:15.756104"], ["updated_at", "2018-05-03 07:06:15.756104"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Annetta Hazle Walter"], ["email", "serenity_rosenbaum@schuppewalker.io"], ["nationality_no", "10573"], ["birth_date", "1997-03-26 00:00:00"], ["created_at", "2018-05-03 07:06:15.766125"], ["updated_at", "2018-05-03 07:06:15.766125"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Madie Alden Bradtke"], ["email", "nash_jacobs@oconner.com"], ["nationality_no", "54827"], ["birth_date", "1994-08-30 00:00:00"], ["created_at", "2018-05-03 07:06:15.777323"], ["updated_at", "2018-05-03 07:06:15.777323"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Pascale Bertrand Bruen"], ["email", "nina.bechtelar@grimes.biz"], ["nationality_no", "68704"], ["birth_date", "1963-11-18 00:00:00"], ["created_at", "2018-05-03 07:06:15.790495"], ["updated_at", "2018-05-03 07:06:15.790495"]]
+  [1m[35m (5.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Idella Esperanza Purdy"], ["email", "effie@dickinson.biz"], ["nationality_no", "86535"], ["birth_date", "1969-02-23 00:00:00"], ["created_at", "2018-05-03 07:06:15.799210"], ["updated_at", "2018-05-03 07:06:15.799210"]]
+  [1m[35m (7.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dorian Ara Maggio DVM"], ["email", "earnestine.ohara@waelchibailey.name"], ["nationality_no", "51426"], ["birth_date", "1963-08-25 00:00:00"], ["created_at", "2018-05-03 07:06:15.810314"], ["updated_at", "2018-05-03 07:06:15.810314"]]
+  [1m[35m (7.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Cathy Ethyl Dickens"], ["email", "luigi@lemke.io"], ["nationality_no", "74563"], ["birth_date", "1967-07-04 00:00:00"], ["created_at", "2018-05-03 07:06:15.823792"], ["updated_at", "2018-05-03 07:06:15.823792"]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mortimer Nelle McDermott"], ["email", "kraig@ziemann.biz"], ["nationality_no", "33546"], ["birth_date", "1962-09-01 00:00:00"], ["created_at", "2018-05-03 07:06:15.832474"], ["updated_at", "2018-05-03 07:06:15.832474"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Colleen Kathlyn Zieme"], ["email", "wava_klein@murphywalter.net"], ["nationality_no", "22264"], ["birth_date", "1999-04-28 00:00:00"], ["created_at", "2018-05-03 07:06:15.843959"], ["updated_at", "2018-05-03 07:06:15.843959"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Shakira Susanna Leuschke"], ["email", "paige.stehr@oreillyrolfson.info"], ["nationality_no", "22324"], ["birth_date", "1975-06-26 00:00:00"], ["created_at", "2018-05-03 07:06:15.855629"], ["updated_at", "2018-05-03 07:06:15.855629"]]
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Columbus Wilhelmine Zieme"], ["email", "jakob@hickle.co"], ["nationality_no", "13450"], ["birth_date", "1972-03-05 00:00:00"], ["created_at", "2018-05-03 07:06:15.866561"], ["updated_at", "2018-05-03 07:06:15.866561"]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Nicolas Carmel Lowe"], ["email", "andrew_corwin@wintheiser.co"], ["nationality_no", "99299"], ["birth_date", "1997-09-28 00:00:00"], ["created_at", "2018-05-03 07:06:15.877051"], ["updated_at", "2018-05-03 07:06:15.877051"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Maribel Archibald Jaskolski"], ["email", "eleanora@rempel.name"], ["nationality_no", "28896"], ["birth_date", "1977-01-17 00:00:00"], ["created_at", "2018-05-03 07:06:15.888462"], ["updated_at", "2018-05-03 07:06:15.888462"]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Layla Della Cruickshank"], ["email", "jeyca_renner@ledner.net"], ["nationality_no", "83867"], ["birth_date", "1978-10-23 00:00:00"], ["created_at", "2018-05-03 07:06:15.900861"], ["updated_at", "2018-05-03 07:06:15.900861"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Giovani Shany Emard"], ["email", "lisandro@lueilwitz.info"], ["nationality_no", "89369"], ["birth_date", "1971-07-15 00:00:00"], ["created_at", "2018-05-03 07:06:15.910715"], ["updated_at", "2018-05-03 07:06:15.910715"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Rick Filiberto Prohaska"], ["email", "danika_wuckert@denesik.io"], ["nationality_no", "74200"], ["birth_date", "1978-08-08 00:00:00"], ["created_at", "2018-05-03 07:06:15.921757"], ["updated_at", "2018-05-03 07:06:15.921757"]]
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lula Jazlyn Stroman"], ["email", "diana@welch.co"], ["nationality_no", "68270"], ["birth_date", "1973-05-18 00:00:00"], ["created_at", "2018-05-03 07:06:15.935485"], ["updated_at", "2018-05-03 07:06:15.935485"]]
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lauriane Thad Bechtelar"], ["email", "octavia@hilll.org"], ["nationality_no", "22021"], ["birth_date", "1972-05-27 00:00:00"], ["created_at", "2018-05-03 07:06:15.943872"], ["updated_at", "2018-05-03 07:06:15.943872"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Jack Jodie Kreiger II"], ["email", "eddie_hills@keelingprohaska.info"], ["nationality_no", "49691"], ["birth_date", "1977-09-11 00:00:00"], ["created_at", "2018-05-03 07:06:15.954899"], ["updated_at", "2018-05-03 07:06:15.954899"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Brent Santiago Adams"], ["email", "catherine@bechtelarortiz.biz"], ["nationality_no", "75474"], ["birth_date", "1999-06-20 00:00:00"], ["created_at", "2018-05-03 07:06:15.969333"], ["updated_at", "2018-05-03 07:06:15.969333"]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Geraldine Tanya Labadie DDS"], ["email", "rickie_cruickshank@predovicschaden.co"], ["nationality_no", "50144"], ["birth_date", "1974-12-27 00:00:00"], ["created_at", "2018-05-03 07:06:15.977406"], ["updated_at", "2018-05-03 07:06:15.977406"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Neha Elvera Huels"], ["email", "jordy@ryan.net"], ["nationality_no", "92525"], ["birth_date", "1975-12-21 00:00:00"], ["created_at", "2018-05-03 07:06:15.988454"], ["updated_at", "2018-05-03 07:06:15.988454"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Katlynn Ceasar Okuneva"], ["email", "lulu_thompson@spencer.co"], ["nationality_no", "53036"], ["birth_date", "1981-02-26 00:00:00"], ["created_at", "2018-05-03 07:06:16.000201"], ["updated_at", "2018-05-03 07:06:16.000201"]]
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Caesar Darlene Predovic"], ["email", "oscar@gradymetz.org"], ["nationality_no", "61468"], ["birth_date", "1992-12-26 00:00:00"], ["created_at", "2018-05-03 07:06:16.010400"], ["updated_at", "2018-05-03 07:06:16.010400"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kyla Reilly Orn"], ["email", "alan@gleason.org"], ["nationality_no", "79516"], ["birth_date", "1959-11-22 00:00:00"], ["created_at", "2018-05-03 07:06:16.021268"], ["updated_at", "2018-05-03 07:06:16.021268"]]
+  [1m[35m (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (9.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Eldred Frederique Crooks"], ["email", "adan_ruecker@rodriguez.net"], ["nationality_no", "67624"], ["birth_date", "1973-05-29 00:00:00"], ["created_at", "2018-05-03 07:06:16.036805"], ["updated_at", "2018-05-03 07:06:16.036805"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (5.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Jovany Emmy Raynor"], ["email", "amya_fay@heaney.org"], ["nationality_no", "79561"], ["birth_date", "1977-04-30 00:00:00"], ["created_at", "2018-05-03 07:06:16.057896"], ["updated_at", "2018-05-03 07:06:16.057896"]]
+  [1m[35m (11.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dimitri Willa Jacobi"], ["email", "annie_keebler@kreigerhettinger.name"], ["nationality_no", "98503"], ["birth_date", "1959-01-20 00:00:00"], ["created_at", "2018-05-03 07:06:16.078814"], ["updated_at", "2018-05-03 07:06:16.078814"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Birdie Peter Jast"], ["email", "vanea_oconner@osinski.net"], ["nationality_no", "71163"], ["birth_date", "1989-10-25 00:00:00"], ["created_at", "2018-05-03 07:06:16.087953"], ["updated_at", "2018-05-03 07:06:16.087953"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Minnie Darrick Kulas PhD"], ["email", "tyrique.turner@ondrickakiehn.name"], ["nationality_no", "61478"], ["birth_date", "1962-07-05 00:00:00"], ["created_at", "2018-05-03 07:06:16.099120"], ["updated_at", "2018-05-03 07:06:16.099120"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Otilia Pierre Frami"], ["email", "halie.muller@rempel.co"], ["nationality_no", "66618"], ["birth_date", "1990-09-08 00:00:00"], ["created_at", "2018-05-03 07:06:16.113062"], ["updated_at", "2018-05-03 07:06:16.113062"]]
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Delores Jonathon Stroman"], ["email", "kyleigh_huel@mayerwolf.biz"], ["nationality_no", "45405"], ["birth_date", "1992-05-10 00:00:00"], ["created_at", "2018-05-03 07:06:16.121406"], ["updated_at", "2018-05-03 07:06:16.121406"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Destany Alphonso Batz II"], ["email", "irma_smitham@rogahnkeebler.net"], ["nationality_no", "24707"], ["birth_date", "1976-09-28 00:00:00"], ["created_at", "2018-05-03 07:06:16.132444"], ["updated_at", "2018-05-03 07:06:16.132444"]]
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Silas Lowell Deckow"], ["email", "candido.considine@daugherty.com"], ["nationality_no", "37466"], ["birth_date", "1975-03-29 00:00:00"], ["created_at", "2018-05-03 07:06:16.146907"], ["updated_at", "2018-05-03 07:06:16.146907"]]
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "William Molly Jaskolski"], ["email", "trey@mcglynnabshire.info"], ["nationality_no", "92509"], ["birth_date", "1981-02-25 00:00:00"], ["created_at", "2018-05-03 07:06:16.154698"], ["updated_at", "2018-05-03 07:06:16.154698"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Alyson Dena Rosenbaum"], ["email", "eudora.ko@prosaccohalvorson.name"], ["nationality_no", "13264"], ["birth_date", "1978-06-17 00:00:00"], ["created_at", "2018-05-03 07:06:16.165715"], ["updated_at", "2018-05-03 07:06:16.165715"]]
+  [1m[35m (8.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Destin Dewayne Veum"], ["email", "robert.ritchie@marquardt.com"], ["nationality_no", "90606"], ["birth_date", "1983-06-23 00:00:00"], ["created_at", "2018-05-03 07:06:16.181713"], ["updated_at", "2018-05-03 07:06:16.181713"]]
+  [1m[35m (12.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Joana Elouise Dare"], ["email", "vanea.strosin@kuhickaulke.biz"], ["nationality_no", "47154"], ["birth_date", "1966-11-17 00:00:00"], ["created_at", "2018-05-03 07:06:16.201413"], ["updated_at", "2018-05-03 07:06:16.201413"]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lindsay Jamaal Trantow"], ["email", "lora_dibbert@cristlarkin.biz"], ["nationality_no", "45600"], ["birth_date", "1958-12-20 00:00:00"], ["created_at", "2018-05-03 07:06:16.214842"], ["updated_at", "2018-05-03 07:06:16.214842"]]
+  [1m[35m (11.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Keyon Lula Reinger V"], ["email", "destinee@boyer.info"], ["nationality_no", "35834"], ["birth_date", "1971-04-17 00:00:00"], ["created_at", "2018-05-03 07:06:16.234115"], ["updated_at", "2018-05-03 07:06:16.234115"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kara Norwood Schinner"], ["email", "brenna@paucek.io"], ["nationality_no", "37593"], ["birth_date", "1997-03-26 00:00:00"], ["created_at", "2018-05-03 07:06:16.245443"], ["updated_at", "2018-05-03 07:06:16.245443"]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Coby Elian Doyle"], ["email", "micaela.mertz@feeney.net"], ["nationality_no", "74489"], ["birth_date", "1962-06-16 00:00:00"], ["created_at", "2018-05-03 07:06:16.255075"], ["updated_at", "2018-05-03 07:06:16.255075"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Remington Amparo Pollich"], ["email", "fausto_bechtelar@weimann.name"], ["nationality_no", "71508"], ["birth_date", "1985-07-30 00:00:00"], ["created_at", "2018-05-03 07:06:16.266344"], ["updated_at", "2018-05-03 07:06:16.266344"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Leland Mollie Bruen"], ["email", "mark@daugherty.io"], ["nationality_no", "82043"], ["birth_date", "1986-01-28 00:00:00"], ["created_at", "2018-05-03 07:06:16.277587"], ["updated_at", "2018-05-03 07:06:16.277587"]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Wilber Jonathan Cartwright"], ["email", "brielle.yundt@deckow.biz"], ["nationality_no", "67120"], ["birth_date", "1973-07-09 00:00:00"], ["created_at", "2018-05-03 07:06:16.288305"], ["updated_at", "2018-05-03 07:06:16.288305"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Krystina Jermey O'Kon"], ["email", "wilburn@abbott.biz"], ["nationality_no", "28888"], ["birth_date", "1981-05-11 00:00:00"], ["created_at", "2018-05-03 07:06:16.299289"], ["updated_at", "2018-05-03 07:06:16.299289"]]
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Reva Domingo Hansen"], ["email", "oswald@keebler.net"], ["nationality_no", "16724"], ["birth_date", "1992-09-15 00:00:00"], ["created_at", "2018-05-03 07:06:16.310404"], ["updated_at", "2018-05-03 07:06:16.310404"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kallie Kayden Blick"], ["email", "savannah@tremblay.org"], ["nationality_no", "25411"], ["birth_date", "1965-07-02 00:00:00"], ["created_at", "2018-05-03 07:06:16.321843"], ["updated_at", "2018-05-03 07:06:16.321843"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Piper Jake Tremblay"], ["email", "sienna_mayert@wolff.io"], ["nationality_no", "32763"], ["birth_date", "1983-10-24 00:00:00"], ["created_at", "2018-05-03 07:06:16.332521"], ["updated_at", "2018-05-03 07:06:16.332521"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Maxwell Jarrell Erdman"], ["email", "mortimer@altenwerth.biz"], ["nationality_no", "89403"], ["birth_date", "1995-06-28 00:00:00"], ["created_at", "2018-05-03 07:06:16.343695"], ["updated_at", "2018-05-03 07:06:16.343695"]]
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Rusty Jo Klein"], ["email", "ignatius@langworth.biz"], ["nationality_no", "95360"], ["birth_date", "1959-06-18 00:00:00"], ["created_at", "2018-05-03 07:06:16.356098"], ["updated_at", "2018-05-03 07:06:16.356098"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Buck Monroe Maggio"], ["email", "delia@mohrharber.info"], ["nationality_no", "71073"], ["birth_date", "1988-12-06 00:00:00"], ["created_at", "2018-05-03 07:06:16.366151"], ["updated_at", "2018-05-03 07:06:16.366151"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Adelbert Rosalind Lakin"], ["email", "jammie_cain@sipes.net"], ["nationality_no", "17035"], ["birth_date", "1996-05-28 00:00:00"], ["created_at", "2018-05-03 07:06:16.377195"], ["updated_at", "2018-05-03 07:06:16.377195"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Sunny Houston Halvorson IV"], ["email", "ludie@gottlieb.name"], ["nationality_no", "94266"], ["birth_date", "1969-01-04 00:00:00"], ["created_at", "2018-05-03 07:06:16.391945"], ["updated_at", "2018-05-03 07:06:16.391945"]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Colt Austen Walker"], ["email", "era@borer.biz"], ["nationality_no", "88407"], ["birth_date", "1986-10-09 00:00:00"], ["created_at", "2018-05-03 07:06:16.399858"], ["updated_at", "2018-05-03 07:06:16.399858"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Alexandro Obie Goyette"], ["email", "jayson@johnston.biz"], ["nationality_no", "36803"], ["birth_date", "1962-01-27 00:00:00"], ["created_at", "2018-05-03 07:06:16.411206"], ["updated_at", "2018-05-03 07:06:16.411206"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Aylin Vivien Altenwerth"], ["email", "francisco.schneider@dickinsonabshire.io"], ["nationality_no", "57610"], ["birth_date", "1983-05-06 00:00:00"], ["created_at", "2018-05-03 07:06:16.424389"], ["updated_at", "2018-05-03 07:06:16.424389"]]
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lizzie Anita D'Amore"], ["email", "kelvin@vandervort.net"], ["nationality_no", "24596"], ["birth_date", "1967-09-26 00:00:00"], ["created_at", "2018-05-03 07:06:16.432769"], ["updated_at", "2018-05-03 07:06:16.432769"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Santina Cory Beier"], ["email", "michel.buckridge@witting.info"], ["nationality_no", "72500"], ["birth_date", "1965-04-22 00:00:00"], ["created_at", "2018-05-03 07:06:16.443795"], ["updated_at", "2018-05-03 07:06:16.443795"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Amiya Trisha Schinner"], ["email", "eldora@ferry.info"], ["nationality_no", "42845"], ["birth_date", "1969-10-02 00:00:00"], ["created_at", "2018-05-03 07:06:16.458564"], ["updated_at", "2018-05-03 07:06:16.458564"]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dariana William Mitchell"], ["email", "trenton.graham@gibsonhintz.co"], ["nationality_no", "15133"], ["birth_date", "1983-11-08 00:00:00"], ["created_at", "2018-05-03 07:06:16.466363"], ["updated_at", "2018-05-03 07:06:16.466363"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Carlotta Scotty Turcotte"], ["email", "jermey.flatley@morarquigley.co"], ["nationality_no", "48470"], ["birth_date", "1982-09-07 00:00:00"], ["created_at", "2018-05-03 07:06:16.477160"], ["updated_at", "2018-05-03 07:06:16.477160"]]
+  [1m[35m (7.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kristy Waldo Deckow"], ["email", "krista_ratke@moen.com"], ["nationality_no", "29488"], ["birth_date", "1984-02-14 00:00:00"], ["created_at", "2018-05-03 07:06:16.488898"], ["updated_at", "2018-05-03 07:06:16.488898"]]
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Elsie Madalyn Hermann"], ["email", "zena_kutch@waelchi.info"], ["nationality_no", "28925"], ["birth_date", "1959-08-05 00:00:00"], ["created_at", "2018-05-03 07:06:16.500726"], ["updated_at", "2018-05-03 07:06:16.500726"]]
+  [1m[35m (4.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Wilton Angela Shanahan"], ["email", "mollie_brekke@predovicgrant.net"], ["nationality_no", "75672"], ["birth_date", "1990-05-01 00:00:00"], ["created_at", "2018-05-03 07:06:16.511477"], ["updated_at", "2018-05-03 07:06:16.511477"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mr. Abigale Jerrod Fritsch"], ["email", "tevin@emmerich.com"], ["nationality_no", "69778"], ["birth_date", "1969-01-05 00:00:00"], ["created_at", "2018-05-03 07:06:16.521477"], ["updated_at", "2018-05-03 07:06:16.521477"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Miss Joshuah Xavier McGlynn"], ["email", "marques@kaulke.io"], ["nationality_no", "19778"], ["birth_date", "1975-07-18 00:00:00"], ["created_at", "2018-05-03 07:06:16.533003"], ["updated_at", "2018-05-03 07:06:16.533003"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Amely Riley Gleichner"], ["email", "sincere@schmidt.net"], ["nationality_no", "77726"], ["birth_date", "1967-05-19 00:00:00"], ["created_at", "2018-05-03 07:06:16.543889"], ["updated_at", "2018-05-03 07:06:16.543889"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Avis Daisha Vandervort"], ["email", "oceane@witting.org"], ["nationality_no", "69244"], ["birth_date", "1974-09-12 00:00:00"], ["created_at", "2018-05-03 07:06:16.556021"], ["updated_at", "2018-05-03 07:06:16.556021"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Antonio Corrine Bartoletti"], ["email", "ted_lakin@wolf.name"], ["nationality_no", "10891"], ["birth_date", "1995-03-21 00:00:00"], ["created_at", "2018-05-03 07:06:16.565812"], ["updated_at", "2018-05-03 07:06:16.565812"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Jaylan Maribel Wolff"], ["email", "darrel@uptoncasper.org"], ["nationality_no", "96357"], ["birth_date", "1973-08-22 00:00:00"], ["created_at", "2018-05-03 07:06:16.577063"], ["updated_at", "2018-05-03 07:06:16.577063"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lavina Ashleigh MacGyver"], ["email", "imani@hoegerweimann.name"], ["nationality_no", "41843"], ["birth_date", "1996-10-09 00:00:00"], ["created_at", "2018-05-03 07:06:16.588668"], ["updated_at", "2018-05-03 07:06:16.588668"]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Chasity Colleen Tromp II"], ["email", "chandler_rohan@wunsch.info"], ["nationality_no", "77229"], ["birth_date", "1963-09-10 00:00:00"], ["created_at", "2018-05-03 07:06:16.599900"], ["updated_at", "2018-05-03 07:06:16.599900"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ms. Marlee Jaquan Effertz"], ["email", "francisca_nikolaus@turner.org"], ["nationality_no", "21913"], ["birth_date", "1963-01-30 00:00:00"], ["created_at", "2018-05-03 07:06:16.610483"], ["updated_at", "2018-05-03 07:06:16.610483"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Charity Jeramie Bahringer"], ["email", "grayson@bergstromrunte.name"], ["nationality_no", "17351"], ["birth_date", "1966-03-14 00:00:00"], ["created_at", "2018-05-03 07:06:16.621525"], ["updated_at", "2018-05-03 07:06:16.621525"]]
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mrs. Landen Adolph Heller"], ["email", "haylie@mohr.co"], ["nationality_no", "84153"], ["birth_date", "1958-11-21 00:00:00"], ["created_at", "2018-05-03 07:06:16.636153"], ["updated_at", "2018-05-03 07:06:16.636153"]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Barbara Axel Roob III"], ["email", "emmanuel@hegmann.biz"], ["nationality_no", "62021"], ["birth_date", "1977-04-22 00:00:00"], ["created_at", "2018-05-03 07:06:16.643648"], ["updated_at", "2018-05-03 07:06:16.643648"]]
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mya Eldora Mohr"], ["email", "hallie@simonichoen.name"], ["nationality_no", "62167"], ["birth_date", "1974-01-20 00:00:00"], ["created_at", "2018-05-03 07:06:16.655127"], ["updated_at", "2018-05-03 07:06:16.655127"]]
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Daphney Iliana Corkery"], ["email", "kariane@ziemeosinski.org"], ["nationality_no", "21292"], ["birth_date", "1978-05-13 00:00:00"], ["created_at", "2018-05-03 07:06:16.668425"], ["updated_at", "2018-05-03 07:06:16.668425"]]
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kraig Mayra Kohler"], ["email", "holden.braun@hand.info"], ["nationality_no", "91708"], ["birth_date", "1964-02-21 00:00:00"], ["created_at", "2018-05-03 07:06:16.677425"], ["updated_at", "2018-05-03 07:06:16.677425"]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mossie Rosie Altenwerth"], ["email", "janea.smith@wolfkerluke.com"], ["nationality_no", "64933"], ["birth_date", "1981-04-14 00:00:00"], ["created_at", "2018-05-03 07:06:16.688453"], ["updated_at", "2018-05-03 07:06:16.688453"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Myron Lonzo Runolfsdottir"], ["email", "cary.fisher@osinski.name"], ["nationality_no", "76925"], ["birth_date", "1969-03-23 00:00:00"], ["created_at", "2018-05-03 07:06:16.699527"], ["updated_at", "2018-05-03 07:06:16.699527"]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Lilly Norval Aufderhar"], ["email", "rubye.harber@fritschstreich.io"], ["nationality_no", "45333"], ["birth_date", "1962-05-24 00:00:00"], ["created_at", "2018-05-03 07:06:16.711488"], ["updated_at", "2018-05-03 07:06:16.711488"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Jaida Dorcas Kreiger"], ["email", "woodrow.wisoky@haagmante.net"], ["nationality_no", "38514"], ["birth_date", "1968-08-08 00:00:00"], ["created_at", "2018-05-03 07:06:16.722104"], ["updated_at", "2018-05-03 07:06:16.722104"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Freddy Madyson Nader"], ["email", "braden_schumm@leannon.info"], ["nationality_no", "86290"], ["birth_date", "1973-11-21 00:00:00"], ["created_at", "2018-05-03 07:06:16.733190"], ["updated_at", "2018-05-03 07:06:16.733190"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Abraham Salma Denesik"], ["email", "amiya_anderson@schroederhermann.co"], ["nationality_no", "25601"], ["birth_date", "1987-10-24 00:00:00"], ["created_at", "2018-05-03 07:06:16.746944"], ["updated_at", "2018-05-03 07:06:16.746944"]]
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Emerald Lue Kreiger"], ["email", "lorenz.larson@dickinson.org"], ["nationality_no", "31510"], ["birth_date", "1997-05-04 00:00:00"], ["created_at", "2018-05-03 07:06:16.755434"], ["updated_at", "2018-05-03 07:06:16.755434"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Dr. Oren Vicente Stroman"], ["email", "elliott.little@rosenbaumtromp.net"], ["nationality_no", "52945"], ["birth_date", "1963-11-10 00:00:00"], ["created_at", "2018-05-03 07:06:16.766540"], ["updated_at", "2018-05-03 07:06:16.766540"]]
+  [1m[35m (7.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Chester Jocelyn Raynor Sr."], ["email", "zoey@bailey.org"], ["nationality_no", "69200"], ["birth_date", "1965-01-29 00:00:00"], ["created_at", "2018-05-03 07:06:16.780861"], ["updated_at", "2018-05-03 07:06:16.780861"]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Chyna Jaylen Swift"], ["email", "jaquan.connelly@kozey.name"], ["nationality_no", "18066"], ["birth_date", "1988-06-23 00:00:00"], ["created_at", "2018-05-03 07:06:16.788615"], ["updated_at", "2018-05-03 07:06:16.788615"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ken Rahsaan Greenholt"], ["email", "maiya@dickens.io"], ["nationality_no", "70970"], ["birth_date", "1989-04-03 00:00:00"], ["created_at", "2018-05-03 07:06:16.799776"], ["updated_at", "2018-05-03 07:06:16.799776"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "nationality_no", "birth_date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Henry Rey Rosenbaum"], ["email", "larry_macgyver@thompson.info"], ["nationality_no", "80208"], ["birth_date", "1984-06-14 00:00:00"], ["created_at", "2018-05-03 07:06:16.812321"], ["updated_at", "2018-05-03 07:06:16.812321"]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/v1/users" for 127.0.0.1 at 2018-05-03 10:32:24 +0300
+  [1m[35m (10.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/v1/users"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/v1/users" for 127.0.0.1 at 2018-05-03 10:33:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/v1/users"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/v1/users" for 127.0.0.1 at 2018-05-03 10:34:21 +0300
+  
+SyntaxError (/home/bojan/sites/spreedsheet-ruby-and-ror/rails_spreedsheet/app/controllers/v1/users_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/v1/users_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/v1/users" for 127.0.0.1 at 2018-05-03 10:36:40 +0300
+Processing by V1::UsersController#index as */*
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 271ms (Views: 182.1ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:42:12 +0300
+  
+SyntaxError (/home/bojan/sites/spreedsheet-ruby-and-ror/rails_spreedsheet/app/controllers/v1/users_controller.rb:49: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/v1/users_controller.rb:49: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-05-03 10:42:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:42:34 +0300
+Processing by V1::UsersController#index as 
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/v1/users_controller.rb:6:in `format'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:42:38 +0300
+Processing by V1::UsersController#index as 
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/v1/users_controller.rb:6:in `format'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:53:45 +0300
+Processing by V1::UsersController#index as 
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `respond_to' for #<V1::UsersController:0x007f29d41b3280>
+Did you mean?  respond_to?):
+  
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:54:20 +0300
+Processing by V1::UsersController#index as 
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (To respond to a custom format, register it as a MIME type first: http://guides.rubyonrails.org/action_controller_overview.html#restful-downloads. If you meant to respond to a variant like :tablet or :phone, not a custom format, be sure to nest your variant response within a format response: format.html { |html| html.tablet { ... } }):
+  
+app/controllers/v1/users_controller.rb:11:in `block in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.json" for 127.0.0.1 at 2018-05-03 10:57:09 +0300
+Processing by V1::UsersController#index as JSON
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (To respond to a custom format, register it as a MIME type first: http://guides.rubyonrails.org/action_controller_overview.html#restful-downloads. If you meant to respond to a variant like :tablet or :phone, not a custom format, be sure to nest your variant response within a format response: format.html { |html| html.tablet { ... } }):
+  
+app/controllers/v1/users_controller.rb:11:in `block in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:57:21 +0300
+Processing by V1::UsersController#index as 
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (To respond to a custom format, register it as a MIME type first: http://guides.rubyonrails.org/action_controller_overview.html#restful-downloads. If you meant to respond to a variant like :tablet or :phone, not a custom format, be sure to nest your variant response within a format response: format.html { |html| html.tablet { ... } }):
+  
+app/controllers/v1/users_controller.rb:11:in `block in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:58:21 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by V1::UsersController#index as XLS
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 8.0ms)
+
+
+  
+NoMethodError (undefined method `description' for #<User:0x007f6578563198>):
+  
+app/controllers/v1/users_controller.rb:22:in `block (3 levels) in index'
+app/controllers/v1/users_controller.rb:21:in `each'
+app/controllers/v1/users_controller.rb:21:in `with_index'
+app/controllers/v1/users_controller.rb:21:in `block (2 levels) in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.json" for 127.0.0.1 at 2018-05-03 10:58:43 +0300
+Processing by V1::UsersController#index as JSON
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 109ms (Views: 94.7ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 10:58:53 +0300
+Processing by V1::UsersController#index as XLS
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.5ms)
+
+
+  
+NoMethodError (undefined method `description' for #<User:0x007f657844c598>):
+  
+app/controllers/v1/users_controller.rb:22:in `block (3 levels) in index'
+app/controllers/v1/users_controller.rb:21:in `each'
+app/controllers/v1/users_controller.rb:21:in `with_index'
+app/controllers/v1/users_controller.rb:21:in `block (2 levels) in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 11:17:16 +0300
+Processing by V1::UsersController#index as XLS
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 3.5ms)
+
+
+  
+NoMethodError (undefined method `description' for #<User:0x007f657881be80>):
+  
+app/controllers/v1/users_controller.rb:22:in `block (3 levels) in index'
+app/controllers/v1/users_controller.rb:21:in `each'
+app/controllers/v1/users_controller.rb:21:in `with_index'
+app/controllers/v1/users_controller.rb:21:in `block (2 levels) in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 11:17:17 +0300
+Processing by V1::UsersController#index as XLS
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 4.1ms)
+
+
+  
+NoMethodError (undefined method `description' for #<User:0x007f65783eabb8>):
+  
+app/controllers/v1/users_controller.rb:22:in `block (3 levels) in index'
+app/controllers/v1/users_controller.rb:21:in `each'
+app/controllers/v1/users_controller.rb:21:in `with_index'
+app/controllers/v1/users_controller.rb:21:in `block (2 levels) in index'
+app/controllers/v1/users_controller.rb:6:in `index'
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 11:18:25 +0300
+  
+SyntaxError (/home/bojan/sites/spreedsheet-ruby-and-ror/rails_spreedsheet/app/controllers/v1/users_controller.rb:22: syntax error, unexpected ':', expecting ')'
+w(i).concat task.slice(:name :email :nationality_no :birth_d
+                              ^
+/home/bojan/sites/spreedsheet-ruby-and-ror/rails_spreedsheet/app/controllers/v1/users_controller.rb:22: syntax error, unexpected ':', expecting keyword_end
+:name :email :nationality_no :birth_date).values
+                              ^
+/home/bojan/sites/spreedsheet-ruby-and-ror/rails_spreedsheet/app/controllers/v1/users_controller.rb:57: syntax error, unexpected keyword_end, expecting end-of-input
+  end
+     ^):
+  
+app/controllers/v1/users_controller.rb:22: syntax error, unexpected ':', expecting ')'
+app/controllers/v1/users_controller.rb:22: syntax error, unexpected ':', expecting keyword_end
+app/controllers/v1/users_controller.rb:57: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 11:18:51 +0300
+Processing by V1::UsersController#index as XLS
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Sent data tasks.xls (0.3ms)
+Completed 200 OK in 220ms (Views: 0.1ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/v1/users.xls" for 127.0.0.1 at 2018-05-03 11:21:04 +0300
+Processing by V1::UsersController#index as XLS
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Sent data users.xls (0.7ms)
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 2.6ms)
+
+
