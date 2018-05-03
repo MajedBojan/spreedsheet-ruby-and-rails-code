@@ -1,4 +1,4 @@
-## This Project created to explain spreadsheet gem in `Ruby` and `Ruby on Rails` as simple as i can
+### This Project created to explain spreadsheet gem in `Ruby` and `Ruby on Rails` as simple as i can
 
 # First Let's start with Ruby
 Let's go directly in the topic
@@ -58,3 +58,37 @@ then will add some optional format
 
 finally will choose the location we need to save our file in my case i will save it in the desktop  
 book.write '/home/bojan/Desktop/spreedsheet.xls'
+
+# Second Let's give try with Rails and exporting users from DB
+For rails first we have to create rails project and will call it `rails_spreedsheet`
+or you can call it what ever you want
+
+let's setup rails app and bundling it
+`rails new rails_spreedsheet --api --database=postgresql`
+we have to install some dependencies as will need them, so please copy those gems into your gem file then run `bundle`
+
+```
+gem 'factory_bot_rails' # factory to gererate random records
+gem 'spreadsheet'       # gem to convert into xls files
+gem 'faker'             # to generate a random data
+```
+after you run `bundle` prepare `database.yml` and `secrets.yml` and ignore them then create examples for them
+
+Now let's generate user model to and put some faker data
+`rails g model user name:string email:string birth_date:datetime nationality_no:string`
+now our migration file looks great so let's migrate it by runing `rails db:migrate`
+
+We have user model let's get some data to export latter we will generate data using faker gem we can get number of users we want
+
+copy this code to your seed or you can run it in `rails console` directly
+
+```
+100.times do
+  User.create(
+    name:           Faker::Name.name_with_middle,
+    email:          Faker::Internet.email,
+    nationality_no: Faker::Number.number(5),
+    birth_date:     Faker::Date.birthday(18, 65)
+  )
+end
+```
